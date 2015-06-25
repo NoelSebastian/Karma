@@ -453,23 +453,23 @@ body {
     width: 100%;
     z-index: 9999;
 }
+
+
 .content {
     width: 970px;
-    /*height: 70px;*/
     margin: 0 auto;
     /*border: 1px red solid;*/
-    text-align: center;
-
+    font-family: 'Roboto', sans-serif; 
 }
 
 .top-navigation .links {
   float: right;
   padding: 0px 15px
-  font-family: 'Roboto', sans-serif; 
   font-size: 16px; 
   color: #838994; 
   letter-spacing: 0.03em;
 }
+
 
 .top-navigation .links li {
   display: inline-block;
@@ -494,11 +494,11 @@ body {
     background-size: cover;
     height: 45.938rem;
     text-align: center;
-    font-family: 'Roboto', sans-serif; 
-    font-size: 24px;
+    font-size: 22px;
     color: white;
     padding-top: 10rem;
     letter-spacing: 0.05em;
+
   }
 
 .big-button {
@@ -509,14 +509,19 @@ body {
   padding: 16px 26px;
   line-height: 1.33;
   background-color: #f15a29;
-  font-size: 20px;
-  font-weight: 350;
-  cursor: pointer;  
+  font-size: 16px;
+  color: white;
 }
 
 .big-button:hover {
   cursor: pointer;
   background-color: #ff1f23;
+}
+
+.cases, .social {
+  text-align: center;
+  padding-top: 5em;
+
 }
 
 .devices {
@@ -528,23 +533,15 @@ body {
     height: 12em;*/    
 }
 
-h2 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
-
-h4 {
-  text-align: center;
-  padding-top: 3rem;
-}
-
 .social li {
   display: inline-block;
   padding: 0 0.8rem;
-  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .page-wrap {
@@ -554,12 +551,3 @@ h4 {
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
  }
-
-
-
-
-
-
-
-
-
