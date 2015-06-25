@@ -442,23 +442,16 @@ html {
 * Makes division visible
 */
 
-body {
-  background-color: LightGray
-}
-
-div {
-  border: 1px solid Chocolate;
-}
-
 
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
 }
-.top-navigation > .content {
+.content {
     width: 970px;
-    height: 70px;
+    /*height: 70px;*/
     margin: 0 auto;
+    /*border: 1px red solid;*/
 }
 
 
@@ -494,6 +487,33 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 24px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 10rem;
+    letter-spacing: 0.05em;
+  }
+
+.big-button {
+  margin: 0 auto;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  background-color: #f15a29;
+  font-size: 20px;
+  font-weight: 350;
+  cursor: pointer;
+  -webkit-appearance: button;
+  
+}
+
+.big-button:hover {
+  cursor: pointer;
+  background-color: #ff1f23;
 }
 
 
