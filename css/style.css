@@ -449,12 +449,16 @@ body {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .content {
     width: 970px;
     /*height: 70px;*/
     margin: 0 auto;
-    border: 1px red solid;
+    /*border: 1px red solid;*/
+    text-align: center;
 
 }
 
@@ -519,13 +523,28 @@ body {
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
+    /*border: 1px solid black;
     box-sizing: border-box;
-    height: 4em;    
+    height: 12em;*/    
 }
 
 h2 {
   text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.social li {
+  display: inline-block;
+  padding: 0 0.8rem;
+  padding-top: 3rem;
 }
 
 .page-wrap {
