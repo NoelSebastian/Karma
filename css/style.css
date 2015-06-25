@@ -443,6 +443,9 @@ html {
 */
 
 
+body {
+  -webkit-font-smoothing: antialiased;
+}
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -451,9 +454,9 @@ html {
     width: 970px;
     /*height: 70px;*/
     margin: 0 auto;
-    /*border: 1px red solid;*/
-}
+    border: 1px red solid;
 
+}
 
 .top-navigation .links {
   float: right;
@@ -468,7 +471,6 @@ html {
   display: inline-block;
   margin-top: 0.7em;
   margin-left: 1em; 
-  -webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links > .active {
@@ -491,7 +493,6 @@ html {
     font-family: 'Roboto', sans-serif; 
     font-size: 24px;
     color: white;
-    -webkit-font-smoothing: antialiased;
     padding-top: 10rem;
     letter-spacing: 0.05em;
   }
@@ -506,9 +507,7 @@ html {
   background-color: #f15a29;
   font-size: 20px;
   font-weight: 350;
-  cursor: pointer;
-  -webkit-appearance: button;
-  
+  cursor: pointer;  
 }
 
 .big-button:hover {
@@ -516,12 +515,26 @@ html {
   background-color: #ff1f23;
 }
 
+.devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;    
+}
 
+h2 {
+  text-align: center;
+}
 
-
-
-
-
+.page-wrap {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+ }
 
 
 
